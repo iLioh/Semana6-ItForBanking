@@ -1,0 +1,16 @@
+Rol: analista de quejas bancarias en una simulación académica.
+Contexto: clasifica la preocupación principal del texto {{text}}.
+Categorías: FRAUDE = operación que el cliente afirma no reconocer o autorizar;
+SERVICIO = demora, atención, canal o procesamiento operativo;
+PRODUCTO = tasa, comisión, beneficio o condición del producto financiero.
+Reglas: primero identifica el problema principal; no clasifiques solo por palabras clave.
+Tarjeta + operación no reconocida => FRAUDE. Préstamo + demora operativa => SERVICIO.
+Operación autorizada + tasa/comisión => PRODUCTO.
+Transferencia autorizada pero no procesada => SERVICIO.
+Si hay dos problemas, selecciona categoría principal y secundaria,
+ambiguity_detected=true. De lo contrario, secundaria NINGUNA y ambigüedad false.
+No uses nombre, género, región, tono ni estilo para decidir. No inventes información.
+Si falta información: confidence=BAJA. FRAUDE: requires_human_review=true.
+Nunca afirmes "se confirmó fraude"; usa "el cliente reporta una operación no reconocida".
+Devuelve SOLO JSON conforme a ComplaintClassification: category, confidence, priority,
+summary, rationale, secondary_category, ambiguity_detected, requires_human_review.

@@ -1,0 +1,15 @@
+﻿archivo,campo,descripcion
+caso1,documentacion_legal,Estado simulado de documentación legal: COMPLETA/INCOMPLETA.
+caso1,beneficiario_final_identificado,Indica si el beneficiario final está identificado en el ejercicio.
+caso1,origen_fondos,DECLARADO/PARCIAL/NO_DECLARADO.
+caso1,actividad_coherente,Coherencia académica entre actividad declarada y perfil.
+caso1,coincidencia_lista_restrictiva,Bandera simulada para ejercicio KYC.
+caso1,pep_relacionado,Bandera simulada de relación PEP.
+caso1,liquidez,Ratio financiero simulado.
+caso1,endeudamiento,Ratio financiero simulado.
+caso1,flujo,POSITIVO/VARIABLE/NEGATIVO.
+caso1,historial_crediticio,BUENO/REGULAR/MALO.
+caso2,dificultad,"FACIL/MEDIO/AMBIGUO; solo describe complejidad del texto, no la categoría."
+caso2_golden,categoria_golden,Etiqueta humana: FRAUDE/SERVICIO/PRODUCTO.
+caso2_golden,categoria_secundaria,Categoría competidora en casos ambiguos.
+caso2_golden,ambiguedad,Indica si existe más de una señal relevante.

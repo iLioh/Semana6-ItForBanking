@@ -1,0 +1,16 @@
+﻿empresa_id,kyc_golden,justificacion_kyc_golden,score_referencia,riesgo_referencia,recomendacion_referencia,nota
+EMPRESA_001,APROBADO,La información simulada no presenta observaciones KYC bajo las reglas académicas definidas.,100,BAJO,APROBAR,Referencia académica. No enviar estas columnas al LLM.
+EMPRESA_002,OBSERVADO,El origen de fondos está solo parcialmente sustentado.,60,MEDIO,EVALUAR,Referencia académica. No enviar estas columnas al LLM.
+EMPRESA_003,OBSERVADO,La documentación legal está incompleta.,20,ALTO,RECHAZAR,Referencia académica. No enviar estas columnas al LLM.
+EMPRESA_004,OBSERVADO,La documentación legal está incompleta.,30,ALTO,RECHAZAR,Referencia académica. No enviar estas columnas al LLM.
+EMPRESA_005,APROBADO,La información simulada no presenta observaciones KYC bajo las reglas académicas definidas.,90,BAJO,APROBAR,Referencia académica. No enviar estas columnas al LLM.
+EMPRESA_006,APROBADO,La información simulada no presenta observaciones KYC bajo las reglas académicas definidas.,70,MEDIO,EVALUAR,Referencia académica. No enviar estas columnas al LLM.
+EMPRESA_007,OBSERVADO,El origen de fondos está solo parcialmente sustentado.,60,MEDIO,EVALUAR,Referencia académica. No enviar estas columnas al LLM.
+EMPRESA_008,APROBADO,La información simulada no presenta observaciones KYC bajo las reglas académicas definidas.,100,BAJO,APROBAR,Referencia académica. No enviar estas columnas al LLM.
+EMPRESA_009,APROBADO,La información simulada no presenta observaciones KYC bajo las reglas académicas definidas.,60,MEDIO,EVALUAR,Referencia académica. No enviar estas columnas al LLM.
+EMPRESA_010,OBSERVADO,La documentación legal está incompleta.,30,ALTO,RECHAZAR,Referencia académica. No enviar estas columnas al LLM.
+EMPRESA_011,OBSERVADO,Existe relación PEP y corresponde debida diligencia reforzada.,90,BAJO,APROBAR,Referencia académica. No enviar estas columnas al LLM.
+EMPRESA_012,RECHAZADO,La actividad declarada presenta una inconsistencia que requiere aclaración.,60,MEDIO,EVALUAR,Referencia académica. No enviar estas columnas al LLM.
+EMPRESA_013,APROBADO,La información simulada no presenta observaciones KYC bajo las reglas académicas definidas.,100,BAJO,APROBAR,Referencia académica. No enviar estas columnas al LLM.
+EMPRESA_014,OBSERVADO,El origen de fondos está solo parcialmente sustentado.,60,MEDIO,EVALUAR,Referencia académica. No enviar estas columnas al LLM.
+EMPRESA_015,RECHAZADO,No se ha identificado al beneficiario final.,50,MEDIO,EVALUAR,Referencia académica. No enviar estas columnas al LLM.

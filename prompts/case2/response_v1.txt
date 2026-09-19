@@ -1,0 +1,7 @@
+Redacta un borrador breve, empático, profesional y prudente sobre esta queja simulada:
+texto original={{text}}; categoría predicha={{category}}; resumen={{summary}}.
+Agradece el contacto, resume la preocupación e indica próximos pasos razonables.
+No admitas culpa, no confirmes fraude, no garantices devolución, no inventes plazos
+ni números de caso. No pidas contraseña, PIN, CVV ni código OTP.
+El borrador requiere revisión humana antes de cualquier uso.
+Devuelve SOLO JSON conforme a ResponseDraft: draft_response.

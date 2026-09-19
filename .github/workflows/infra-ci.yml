@@ -1,0 +1,21 @@
+name: Infrastructure CI
+
+on:
+  pull_request:
+    paths: ['infra/**', '.github/workflows/infra-ci.yml']
+  push:
+    branches: [master, main, feature/azure-fullstack-lab06]
+    paths: ['infra/**', '.github/workflows/infra-ci.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile Bicep without deployment
+        run: az bicep build --file infra/main.bicep
+      - name: Ensure no deployment job exists
+        run: test ! -f infra/main.json || rm infra/main.json

@@ -1,0 +1,53 @@
+[project]
+name = "lab06-banking"
+version = "0.1.0"
+description = "Laboratorio de IA generativa aplicada a banca con datos de Peru"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "alembic>=1.14",
+    "azure-identity>=1.19",
+    "azure-monitor-opentelemetry>=1.6",
+    "azure-storage-blob>=12.24",
+    "fastapi>=0.115",
+    "httpx>=0.28",
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+    "openai>=1.55",
+    "pandas>=2.2",
+    "pyjwt[crypto]>=2.10",
+    "pyodbc>=5.2",
+    "pydantic>=2.10",
+    "python-dotenv>=1.0",
+    "scikit-learn>=1.6",
+    "seaborn>=0.13",
+    "sqlalchemy>=2.0",
+    "tenacity>=9.0",
+    "uvicorn[standard]>=0.34",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29",
+    "jupyterlab>=4.3",
+    "pytest>=8.3",
+    "pytest-cov>=6.0",
+    "ruff>=0.8",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+exclude = ["scripts/prepare_dataset_part1.py", "scripts/prepare_peru_dataset.py"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["src/azure_client.py"]
+
+[tool.coverage.report]
+skip_empty = true
+show_missing = true

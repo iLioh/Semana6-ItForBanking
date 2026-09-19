@@ -1,0 +1,9 @@
+Clasifica esta queja bancaria SIMULADA: {{text}}.
+FRAUDE: operación que el cliente afirma no haber realizado o autorizado.
+SERVICIO: demora, atención deficiente, error de canal o problema operativo.
+PRODUCTO: tasa, comisión, beneficio o condición de un producto financiero.
+Elige el problema principal. No inventes hechos ni confirmes fraude; di "reporta".
+Si hay información insuficiente, confianza BAJA. Si es FRAUDE, requiere revisión humana.
+Devuelve SOLO JSON conforme a ComplaintClassification: category, confidence, priority,
+summary, rationale, secondary_category (o NINGUNA), ambiguity_detected,
+requires_human_review.

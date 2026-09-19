@@ -1,0 +1,1 @@
+"""Aplicacion web del laboratorio."""

@@ -1,0 +1,31 @@
+﻿caso_id,categoria_golden,prioridad_golden,categoria_secundaria,ambiguedad,justificacion_golden,revision_humana,nota
+QUEJA_001,FRAUDE,ALTA,NINGUNA,NO,Compra que el cliente afirma no haber realizado.,SI,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_002,FRAUDE,ALTA,NINGUNA,NO,Transferencia que el cliente niega haber autorizado.,SI,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_003,FRAUDE,ALTA,SERVICIO,SI,El retiro no reconocido es el problema principal; la atención deficiente es secundaria.,SI,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_004,FRAUDE,ALTA,SERVICIO,SI,Cambio de datos no solicitado seguido de un pago desconocido.,SI,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_005,FRAUDE,ALTA,PRODUCTO,SI,"Reconoce una compra, pero niega haber autorizado el segundo cargo.",SI,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_006,FRAUDE,ALTA,NINGUNA,NO,Pago en una billetera que el cliente afirma no utilizar.,SI,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_007,FRAUDE,ALTA,PRODUCTO,SI,Consumo internacional no reconocido; el producto tarjeta es secundario.,SI,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_008,FRAUDE,ALTA,PRODUCTO,SI,El cliente afirma no haber solicitado el préstamo y existe una transferencia posterior.,SI,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_009,FRAUDE,ALTA,SERVICIO,SI,Transferencia no autorizada posterior a la pérdida del dispositivo.,SI,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_010,FRAUDE,ALTA,PRODUCTO,SI,Cargos repetidos que el cliente no reconoce.,SI,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_011,SERVICIO,MEDIA,NINGUNA,NO,Falla operativa de la aplicación sin transacciones desconocidas.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_012,SERVICIO,MEDIA,NINGUNA,NO,Demora y falta de atención en agencia.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_013,SERVICIO,MEDIA,FRAUDE,SI,La transferencia fue autorizada; el problema es la demora de procesamiento.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_014,SERVICIO,MEDIA,PRODUCTO,SI,Falla de cajero y gestión posterior; no existen operaciones desconocidas.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_015,SERVICIO,MEDIA,PRODUCTO,SI,"La apertura de cuenta es el contexto, pero el problema es una falla del proceso digital.",RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_016,SERVICIO,MEDIA,PRODUCTO,SI,Demora en entrega/reposición de tarjeta.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_017,SERVICIO,MEDIA,NINGUNA,NO,Problema reiterado en el canal de atención telefónica.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_018,SERVICIO,MEDIA,NINGUNA,NO,Falta de respuesta y demora en la gestión de un reclamo.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_019,SERVICIO,MEDIA,PRODUCTO,SI,El pago fue programado por el cliente; el problema es que el servicio no lo ejecutó.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_020,SERVICIO,MEDIA,PRODUCTO,SI,Información contradictoria y falta de resolución entre canales.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_021,PRODUCTO,MEDIA,SERVICIO,SI,Disconformidad con una condición económica de la tarjeta: membresía.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_022,PRODUCTO,MEDIA,SERVICIO,SI,La queja principal corresponde a la tasa y condiciones del préstamo.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_023,PRODUCTO,BAJA,NINGUNA,NO,Se cuestiona una comisión propia de las condiciones de la cuenta.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_024,PRODUCTO,MEDIA,SERVICIO,SI,La disconformidad central es un beneficio/condición ofrecida de la tarjeta.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_025,PRODUCTO,MEDIA,NINGUNA,NO,Se cuestiona una condición económica asociada al préstamo.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_026,PRODUCTO,BAJA,NINGUNA,NO,Consulta/disconformidad sobre cálculo de intereses de la tarjeta.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_027,PRODUCTO,BAJA,NINGUNA,NO,Comisión ligada a una condición del producto cuenta.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_028,PRODUCTO,MEDIA,SERVICIO,SI,El límite asignado y sus criterios son condiciones del producto.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_029,PRODUCTO,MEDIA,SERVICIO,SI,La compra es reconocida; se cuestionan tipo de cambio y comisión.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
+QUEJA_030,PRODUCTO,MEDIA,SERVICIO,SI,Se cuestiona un costo/condición del financiamiento.,RECOMENDADA,Etiqueta humana definida antes de ejecutar el modelo.
